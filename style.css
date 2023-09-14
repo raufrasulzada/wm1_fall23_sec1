@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(180deg, #899fe0, #c8daa1);
+}
+
+.image {
+  display: flex;
+  justify-content: center;
+}
+
+.image img {
+  width: 500px;
+  height: 300px;
+  border: 2px solid blue;
+  border-radius: 60%;
+  margin-top: 80px;
+}
