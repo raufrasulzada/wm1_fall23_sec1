@@ -1,17 +1,19 @@
+:root {
+  --clr: rgb(228, 228, 225);
+}
+
 * {
   margin: 0;
   padding: 2px 5px;
   box-sizing: border-box;
+  color: rgb(228, 228, 225);
+  margin-top: 6px;
 }
 
 body {
-  height: 125vh;
-  background-image: linear-gradient(
-    180deg,
-    #899fe0,
-    #c8daa1,
-    rgb(203, 180, 245)
-  );
+  height: 100vh;
+  background-image: linear-gradient(135deg, rgb(9, 23, 34), rgb(53, 42, 42));
+  margin: 5px;
 }
 
 .image {
@@ -22,7 +24,7 @@ body {
 .image img {
   width: 500px;
   height: 300px;
-  border: 2px solid blue;
+  border: 2px solid var(--clr);
   border-radius: 60%;
   margin-top: 45px;
 }
@@ -33,7 +35,7 @@ body {
 
 .intro img {
   width: 150px;
-  border: 3px solid blue;
+  border: 3px solid var(--clr);
   border-radius: 45px;
 }
 
@@ -47,4 +49,45 @@ body {
 
 .new-page {
   margin-left: 90px;
+}
+
+.btn-linkedin {
+  background: rgb(83, 83, 216);
+  border: none;
+  padding: 16px 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-linkedin:hover {
+  padding: 20px 20px;
+}
+
+.btn-linkedin:active {
+  opacity: 0.8;
+}
+
+.anchortag {
+  text-decoration: none;
+  color: white;
+  /* background-color: rgb(83, 83, 216); */
+}
+
+.btn-github {
+  background: rgb(115, 36, 189);
+  border: none;
+  padding: 16px 16px;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: all 0.3s ease;
+}
+
+.btn-github:hover {
+  padding: 20px 20px;
+}
+
+.btn-github:active {
+  opacity: 0.8;
 }

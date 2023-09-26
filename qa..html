@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Questionnaire</title>
+    <link rel="stylesheet" href="qa.css" />
+  </head>
+  <body>
+    <form
+      action="mailto:rauf.rasulzade0@gmail.com"
+      method="POST"
+      enctype="multipart/form-data"
+    >
+      <label for="fname">FirstName:</label>
+      <input
+        type="text"
+        name="fname"
+        id="fname"
+        placeholder="Enter first name"
+        required
+      />
+      <br />
+
+      <label for="lname"> LastName: </label>
+      <input
+        type="text"
+        name="lname"
+        id="lname"
+        placeholder="Enter last name"
+        required
+      />
+      <br />
+      <fieldset>
+        <legend>Select your gender</legend>
+        <input id="gender_male" name="gender" type="radio" value="MALE" />
+        <label for="">Male</label> <br />
+        <input id="gender_female" name="gender" type="radio" value="FEMALE" />
+        <label for="">Female</label>
+        <br />
+        <input id="gender_other" name="gender" type="radio" value="OTHER" />
+        <label for="">Other</label>
+        <br />
+      </fieldset>
+      <fieldset>
+        <legend>Which programming languagesyou know</legend>
+        <label for="lang_java"
+          ><input type="checkbox" name="lang" id="lang_java" value="JAVA" />
+          Java</label
+        >
+        <label for="lang_python"
+          ><input type="checkbox" name="lang" id="lang_python" value="PYTHON" />
+          Python</label
+        >
+        <label for="lang_php"
+          ><input type="checkbox" name="lang" id="lang_php" value="PHP" />
+          PHP</label
+        >
+      </fieldset>
+      <input type="submit" value="SUBSEND" />
+    </form>
+    <br />
+    <a href="index.html">Home</a>
+  </body>
+</html>
