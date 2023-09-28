@@ -1,89 +1,138 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>My !First Page</title>
-    <meta charset="UFT-8" />
-    <meta name="description" content="!First page about HTML" />
-    <link rel="icon" type="image/x-icon" href="./icons/favicon.ico" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="icons/favicon.ico" />
+    <title>Home</title>
   </head>
   <body>
-    <div class="container">
-      <div class="intro">
-        <table cellspacing="10" border="0">
-          <tr>
-            <td>
-              <img src="images/me.png" alt="Rauf Rasulzada" />
-            </td>
-            <td>
-              <h2 style="text-align: center">Rauf Rasulzada</h2>
-              <p>Email: rrasulzada15558@ada.edu.az</p>
-              <p style="text-align: center">Phone Number: +994-55-423-45-77</p>
-              <p style="text-align: center">Nationality: Azerbaijani</p>
-              <a
-                href="https://www.linkedin.com/in/rauf-rasulzada-189656238/"
-                class="linkedin"
-                target="_blank"
-                >LinkedIn</a
+    <div class="title-page">
+      <h1>&nbsp</h1>
+      <div class="web-header">
+        <nav>
+          <ul>
+            <li>
+              <a style="color: white; text-decoration: none" href="index.html"
+                >Home</a
               >
-            </td>
-          </tr>
-        </table>
-        <h2>BSIT 2025, ADA University</h2>
-      </div>
-      <div class="about-me">
-        <p><strong>About me</strong></p>
-        <p>
-          I am 19 years old, third year student of ADA University. I am
-          interested in software development so I have knowledge of front-end
-          development as a step forward for being a successful software
-          developer in the future.
-        </p>
-      </div>
-      <div class="skills">
-        <h3>Skills that I have</h3>
-        <div class="list">
-          <ul type="square">
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>Basics of React</li>
-            <li>GitHub</li>
+            </li>
+            <li>
+              <a
+                style="color: white; text-decoration: none"
+                href="about_contact.html"
+                >About & Contact Me</a
+              >
+            </li>
+
+            <li>
+              <a
+                style="color: white; text-decoration: none"
+                href="questionnaire.html"
+                >Questionnaire</a
+              >
+            </li>
           </ul>
-        </div>
+        </nav>
       </div>
-      <div class="skills">
-        <h3>Other Skills</h3>
-        <div class="list">
-          <ol type="i">
-            <li>Leadership & Teamwork</li>
-            <li>Risk Management</li>
-            <li>Time Management</li>
-            <li>Adaptability</li>
-          </ol>
-        </div>
-      </div>
-      <div class="table">
-        <table border="5">
-          <tr>
-            <th>Skills</th>
-            <th></th>
-          </tr>
-          <tr>
-            <th style="text-align: center">HTML</th>
-            <th>99%</th>
-          </tr>
-          <tr>
-            <th style="text-align: center">CSS</th>
-            <th>88%</th>
-          </tr>
-          <tr>
-            <th style="text-align: center">JavaScript</th>
-            <th>20%</th>
-          </tr>
-        </table>
-      </div>
-      <a class="new-page" href="about.html" target="_parent">About Me</a>
     </div>
+    <div class="container">
+      <section class="profile">
+        <div class="profile-page">
+          <img src="./images/me.png" alt="Rauf Rasulzada" />
+        </div>
+        <div class="profile-information">
+          <h1>Rauf Rasulzada</h1>
+          <p>• Age: 19</p>
+          <p>• Education: ADA University</p>
+          <p>• Program: Bachelor's Science in Information Technologies</p>
+          <p>• Location: Azerbaijan, Sumgayit</p>
+          <p>
+            •
+            <a
+              style="text-decoration: none"
+              class="btn"
+              href="Rauf Rasulzada Resume.pdf"
+              target="_blank"
+              class="my-cv"
+              >My CV</a
+            >
+          </p>
+        </div>
+      </section>
+      <hr />
+
+      <div class="brief-info">
+        <h2>• Brief Info •</h2>
+        <p>
+          I'm studying in Bachelor of Science in Information Technologies as a
+          third-year student in ADA University. I'm a diciplined and ambitious
+          person, aspiring to pursuit the career of software development in the
+          future.
+        </p>
+        <hr />
+        <section class="languages">
+          <h2>• Language Proficiency •</h2>
+          <div class="language-proficiency">
+            <table>
+              <thead>
+                <tr>
+                  <th>Language</th>
+                  <th>Proficiency Level</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Azerbaijani</td>
+                  <td>Native</td>
+                </tr>
+                <tr>
+                  <td>Turkish</td>
+                  <td>Native</td>
+                </tr>
+                <tr>
+                  <td>English</td>
+                  <td>Advanced</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <hr />
+        </section>
+        <section class="languages">
+          <h2>• Programming & Markup Languages •</h2>
+          <div class="programming-languages">
+            <table>
+              <thead>
+                <tr>
+                  <th>Language</th>
+                  <th>Skill Percentage</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>C++</td>
+                  <td>82%</td>
+                </tr>
+                <tr>
+                  <td>HTML</td>
+                  <td>91%</td>
+                </tr>
+                <tr>
+                  <td>JavaScript</td>
+                  <td>83%</td>
+                </tr>
+                <tr>
+                  <td>CSS</td>
+                  <td>79%%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="icons/favicon.ico" />
+
+    <title>Questionnaire</title>
+  </head>
+  <body>
+    <div class="title-page">
+      <h1>&nbsp;</h1>
+      <div class="web-header">
+        <nav>
+          <ul>
+            <li>
+              <a style="color: white; text-decoration: none" href="index.html"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                style="color: white; text-decoration: none"
+                href="about_contact.html"
+                >About & Contact Me</a
+              >
+            </li>
+
+            <li>
+              <a
+                style="color: white; text-decoration: none"
+                href="questionnaire.html"
+                >Questionnaire</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <div class="container">
+      <section class="questionnaire">
+        <h2>Questionnaire</h2>
+        <form>
+          <fieldset>
+            <legend>Select your gender</legend>
+            <input id="gender_male" name="gender" type="radio" value="MALE" />
+            <label for="">Male</label> <br />
+            <input
+              id="gender_female"
+              name="gender"
+              type="radio"
+              value="FEMALE"
+            />
+            <label for="">Female</label>
+            <br />
+            <input id="gender_other" name="gender" type="radio" value="OTHER" />
+            <label for="">Other</label>
+            <br />
+          </fieldset>
+
+          <fieldset>
+            <label for="programming-skills"
+              >What are your programming skills? (Select all that apply)</label
+            >
+            <div class="checkbox-group">
+              <input
+                type="checkbox"
+                id="cplus"
+                name="programming-skills"
+                value="cplus"
+              />
+              <label for="cplus">C/C++</label><br />
+
+              <input
+                type="checkbox"
+                id="java"
+                name="programming-skills"
+                value="java"
+              />
+              <label for="java">Java</label><br />
+
+              <input
+                type="checkbox"
+                id="python"
+                name="programming-skills"
+                value="python"
+              />
+              <label for="python">Python</label><br />
+
+              <input
+                type="checkbox"
+                id="javascript"
+                name="programming-skills"
+                value="javascript"
+              />
+              <label for="javascript">JavaScript</label><br />
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <label for="language-proficiency">Language Proficiency</label>
+            <div class="checkbox-group">
+              <input
+                type="checkbox"
+                id="english"
+                name="language-proficiency"
+                value="english"
+              />
+              <label for="english">English</label>
+
+              <input
+                type="checkbox"
+                id="french"
+                name="language-proficiency"
+                value="french"
+              />
+              <label for="French">French</label>
+
+              <input
+                type="checkbox"
+                id="german"
+                name="language-proficiency"
+                value="german"
+              />
+              <label for="advanced">German</label>
+
+              <input
+                type="checkbox"
+                id="turkish"
+                name="language-proficiency"
+                value="turkish"
+              />
+              <label for="advanced">Turkish</label>
+
+              <input
+                type="checkbox"
+                id="japanese"
+                name="language-proficiency"
+                value="japanese"
+              />
+              <label for="advanced">Japanese</label>
+            </div>
+          </fieldset>
+
+          <button type="submit" class="btn">Submit</button>
+        </form>
+      </section>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
