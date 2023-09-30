@@ -9,8 +9,9 @@
 
 body {
   font-family: "Poppins", sans-serif;
+
   color: white;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 1.15rem;
   background-image: linear-gradient(to right, #2c3e50, #4ca1af);
   display: flex;
@@ -64,16 +65,26 @@ p {
   align-items: center;
   position: absolute;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
   margin-bottom: 50px;
 }
 
 .web-header li {
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
 }
 
 .web-header li:hover {
   font-size: 1.8rem;
+}
+
+.web-header li a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.web-header li a:hover {
+  color: rgb(91, 210, 243);
 }
 
 .web-header ul {
@@ -139,4 +150,41 @@ fieldset {
 
 .languages table {
   width: 100%;
+}
+
+#message-send {
+  transition: all 0.3s ease;
+}
+
+#message-send:focus {
+  padding: 25px 35px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%; /* Adjust width for smaller screens */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .profile {
+    flex-direction: column; /* Stack profile information in a column */
+    align-items: center;
+  }
+
+  .web-header nav {
+    margin-left: 0; /* Adjust margin for smaller screens */
+  }
+
+  .web-header ul li {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+
+  .profile-page img {
+    width: 150px; /* Adjust image size for smaller screens */
+  }
+
+  .questionnaire .checkbox-group {
+    display: flex;
+    flex-direction: column; /* Stack checkboxes in a column */
+  }
 }
