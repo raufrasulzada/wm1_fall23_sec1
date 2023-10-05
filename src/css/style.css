@@ -102,12 +102,16 @@ p {
 .profile-page img {
   border-radius: 50%;
   width: 200px;
+  height: 200px;
+  object-fit: cover;
   margin: 10px;
   transition: all 0.3s ease;
+  cursor: pointer;
 }
 
 .profile-page img:hover {
   width: 250px;
+  height: 250px;
   border-radius: 35%;
 }
 
