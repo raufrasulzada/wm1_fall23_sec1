@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+
+  color: white;
+  font-weight: 700;
+  font-size: 1.15rem;
+  background-image: linear-gradient(to right, #2c3e50, #4ca1af);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh; /* Adjusted for proper centering */
+  margin: 0;
+}
+
+p {
+  margin: 10px;
+}
+
+.container {
+  width: 90%;
+  max-width: 1500px; /* Adjusted max-width for larger screens */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.5); /* Adjusted for better contrast */
+  margin: 0 auto; /* Center the container */
+}
+
+.title-page {
+  display: inline;
+}
+
+.brief-info {
+  text-align: center;
+}
+
+.web-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%; /* Adjusted for proper centering */
+}
+
+.profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%; /* Adjusted for proper centering */
+}
+
+.web-header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin-bottom: 50px;
+}
+
+.web-header li {
+  transition: all 0.2s ease;
+}
+
+.web-header li:hover {
+  font-size: 1.8rem;
+}
+
+.web-header li a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.web-header li a:hover {
+  color: rgb(91, 210, 243);
+}
+
+.web-header ul {
+  display: inline;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.web-header ul li {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+
+.profile-page img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  margin: 10px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.profile-page img:hover {
+  width: 250px;
+  height: 250px;
+  border-radius: 35%;
+}
+
+hr {
+  margin: 20px;
+  padding: 3px;
+  background: white;
+  border-radius: 50%;
+}
+
+fieldset {
+  margin: 20px;
+}
+
+.btn {
+  border: none;
+  background: rgb(123, 180, 197);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.checkbox-group {
+  word-spacing: 5px;
+}
+
+.btn:hover {
+  padding: 10px 35px;
+}
+
+.btn:active {
+  opacity: 0.8;
+}
+
+.language-proficiency {
+  text-align: center;
+}
+
+.languages table {
+  width: 100%;
+}
+
+#message-send {
+  transition: all 0.3s ease;
+}
+
+#message-send:focus {
+  padding: 25px 35px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%; /* Adjust width for smaller screens */
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+
+  .profile {
+    flex-direction: column; /* Stack profile information in a column */
+    align-items: center;
+  }
+
+  .web-header nav {
+    margin-left: 0; /* Adjust margin for smaller screens */
+  }
+
+  .web-header ul li {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+
+  .profile-page img {
+    width: 150px; /* Adjust image size for smaller screens */
+  }
+
+  .questionnaire .checkbox-group {
+    display: flex;
+    flex-direction: column; /* Stack checkboxes in a column */
+  }
+}

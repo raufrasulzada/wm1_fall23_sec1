@@ -1,54 +1,136 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>My !First Page</title>
-    <meta charset="UFT-8" />
-    <meta name="description" content="!First page about HTML" />
-    <link rel="icon" type="image/x-icon" href="./icons/favicon.ico" />
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="icon" href="icons/favicon.ico" />
+    <title>Home</title>
   </head>
   <body>
-    <h1>I am Rauf</h1>
-    <p>Welcome to my simple page</p>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil expedita
-      commodi debitis excepturi atque doloribus odio blanditiis numquam. Sequi
-      id ullam error. Nam placeat quam aliquam ipsa deserunt, laudantium
-      perferendis sint quibusdam asperiores fugiat aspernatur qui repellendus
-      eveniet optio numquam laboriosam vitae architecto voluptates error iste.
-      Voluptatibus quo incidunt optio.
-    </p>
-    <h3>Favorite cars</h3>
-    <ul type="square">
-      <li>Vaz2107</li>
-      <li>Porsche Cayene</li>
-      <li>BMW</li>
-      <li>Tesla Model S</li>
-      <li>Skyline R34</li>
-    </ul>
+    <div class="title-page">
+      <h1>&nbsp</h1>
+      <div class="web-header">
+        <nav>
+          <ul>
+            <li>
+              <a href="index.html">Home</a>
+            </li>
+            <li>
+              <a href="about_contact.html">About & Contact Me</a>
+            </li>
 
-    <h3>Weekly topics</h3>
-    <ol type="i">
-      <li>Intro to HTML</li>
-      <li>Intro to CSS</li>
-      <li>Intro to JS</li>
-      <li>Intro to React</li>
-    </ol>
-
-    <p>You can reach me out on 📞 24233465676</p>
-    <p>
-      Visit my
-      <a
-        href="https://www.linkedin.com/in/rauf-rasulzada-189656238/"
-        target="_blank"
-        >LinkedIn</a
-      >
-      page for more information
-    </p>
-    <div class="image">
-      <img
-        src="https://www.wbcsd.org/var/site/storage/images/overview/news-insights/wbcsd-insights/accelerating-business-along-the-road-to-a-nature-positive-future/225091-1-eng-GB/Accelerating-business-along-the-road-to-a-nature-positive-future_i1140.jpg"
-      />
+            <li>
+              <a href="questionnaire.html">Questionnaire</a>
+            </li>
+            <li>
+              <a href="card.html">Digital Card</a>
+            </li>
+            <li>
+              <a href="https://github.com/raufrasulzada" target="_blank"
+                >GitHub</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
     </div>
+    <div class="container">
+      <section class="profile">
+        <div class="profile-page">
+          <img src="./images/me.jpeg" alt="Rauf Rasulzada" />
+        </div>
+        <div class="profile-information">
+          <h1>Rauf Rasulzada</h1>
+          <p>• Age: 19</p>
+          <p>• Education: ADA University</p>
+          <p>• Program: Bachelor's Science in Information Technologies</p>
+          <p>• Location: Azerbaijan, Sumgayit</p>
+          <p>
+            •
+            <a
+              style="text-decoration: none"
+              class="btn"
+              href="Rauf Rasulzada Resume.pdf"
+              target="_blank"
+              class="my-cv"
+              >My CV</a
+            >
+          </p>
+        </div>
+      </section>
+      <hr />
+
+      <div class="brief-info">
+        <h2>★ Brief Info ★</h2>
+        <p>
+          I'm studying in Bachelor of Science in Information Technologies as a
+          third-year student in ADA University. I'm a diciplined and ambitious
+          person, aspiring to pursuit the career of software development in the
+          future.
+        </p>
+        <hr />
+        <section class="languages">
+          <h2>★ Language Proficiency ★</h2>
+          <div class="language-proficiency">
+            <table>
+              <thead>
+                <tr>
+                  <th>Language</th>
+                  <th>Proficiency Level</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Azerbaijani</td>
+                  <td>Native</td>
+                </tr>
+                <tr>
+                  <td>Turkish</td>
+                  <td>Native</td>
+                </tr>
+                <tr>
+                  <td>English</td>
+                  <td>Advanced</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <hr />
+        </section>
+        <section class="languages">
+          <h2>★ Programming & Markup Languages ★</h2>
+          <div class="programming-languages">
+            <table>
+              <thead>
+                <tr>
+                  <th>Language</th>
+                  <th>Skill Percentage</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>C++</td>
+                  <td>82%</td>
+                </tr>
+                <tr>
+                  <td>HTML</td>
+                  <td>91%</td>
+                </tr>
+                <tr>
+                  <td>JavaScript</td>
+                  <td>83%</td>
+                </tr>
+                <tr>
+                  <td>CSS</td>
+                  <td>79%</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>
