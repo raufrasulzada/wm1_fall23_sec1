@@ -87,6 +87,10 @@ p {
   color: rgb(91, 210, 243);
 }
 
+.web-header li a.active {
+  color: rgb(91, 210, 243);
+}
+
 .web-header ul {
   display: inline;
   justify-content: space-between;
@@ -166,29 +170,29 @@ fieldset {
 
 @media (max-width: 768px) {
   .container {
-    width: 100%; /* Adjust width for smaller screens */
-    padding: 10px; /* Adjust padding for smaller screens */
+    width: 100%;
+    padding: 10px;
   }
 
   .profile {
-    flex-direction: column; /* Stack profile information in a column */
+    flex-direction: column;
     align-items: center;
   }
 
   .web-header nav {
-    margin-left: 0; /* Adjust margin for smaller screens */
+    margin-left: 0;
   }
 
   .web-header ul li {
-    font-size: 1rem; /* Adjust font size for smaller screens */
+    font-size: 1rem;
   }
 
   .profile-page img {
-    width: 150px; /* Adjust image size for smaller screens */
+    width: 150px;
   }
 
   .questionnaire .checkbox-group {
     display: flex;
-    flex-direction: column; /* Stack checkboxes in a column */
+    flex-direction: column;
   }
 }
